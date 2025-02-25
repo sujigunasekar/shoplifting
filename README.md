@@ -32,8 +32,10 @@ This project uses a custom dataset for shoplifting detection. You can use your o
 
 The dataset includes:
 
-Images: Frames extracted from video footage.
-Labels: YOLO-compatible annotation files containing bounding box information for each object.
+#### Images: 
+Frames extracted from video footage.
+#### Labels:
+YOLO-compatible annotation files containing bounding box information for each object.
 ### Training the Model
 If you want to train the model with your own dataset, follow these steps:
 
@@ -106,6 +108,8 @@ cv2.destroyAllWindows()
 print(f"✅ Output video saved at: {output_path}")
 ```
 ## Output
+![image](https://github.com/user-attachments/assets/9fb86b77-a972-441f-be50-f010de2f3761)
+
 ### Detection Video: 
 The output video will show the annotated frames, with bounding boxes around detected objects, including class labels and confidence scores.
 ### Accuracy and Precision:
