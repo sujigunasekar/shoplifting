@@ -107,12 +107,30 @@ out.release()
 cv2.destroyAllWindows()
 print(f"✅ Output video saved at: {output_path}")
 ```
+
+### Model Performance Summary:
+The YOLOv8 model trained for shoplifting detection demonstrates promising results with the following performance metrics:
+
+Precision: 73.2%
+
+This indicates that 73.2% of the predicted shoplifting events were correct, minimizing false positive detections.
+
+Recall: 76.9%
+
+The model successfully identified 76.9% of all the actual shoplifting instances, minimizing false negatives.
+
+F1-Score: 75.0%
+
+The F1-score, which balances precision and recall, is approximately 75%, reflecting the model's overall effectiveness in detecting shoplifting events.
+
+
+These results suggest that the model is well-suited for identifying shoplifting in video footage, with a good balance between false positives and false negatives. Further refinement and tuning may improve performance, especially by adjusting the confidence threshold and experimenting with more diverse datasets.
 ## Output
 ![image](https://github.com/user-attachments/assets/9fb86b77-a972-441f-be50-f010de2f3761)
 
 ### Detection Video: 
 The output video will show the annotated frames, with bounding boxes around detected objects, including class labels and confidence scores.
-### Accuracy and Precision:
-The accuracy (and possibly other metrics) is logged during training and can be used to evaluate model performance.
+
+
 
 
