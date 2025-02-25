@@ -42,7 +42,9 @@ If you want to train the model with your own dataset, follow these steps:
 ### Prepare your dataset in the YOLO format:
 
 Organize images in the /train/images/ directory.
+
 Create a corresponding label file in /train/labels/ for each image, containing class information in YOLO format.
+
 Create a data.yaml file to configure the dataset:
 
 ### Train the model:
