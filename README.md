@@ -52,7 +52,7 @@ Create a data.yaml file to configure the dataset:
 from ultralytics import YOLO
 
 model = YOLO("yolov8n.pt")  # Load a pre-trained YOLOv8 model (nano version)
-model.train(data="data.yaml", epochs=20, batch=8, imgsz=640)  # Customize as needed
+model.train(data="data.yaml", epochs=100, batch=8, imgsz=640)  # Customize as needed
 Running Inference on Video
 Once the model is trained, use it for inference on a video to detect shoplifting behavior.
 
